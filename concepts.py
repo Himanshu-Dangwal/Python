@@ -16,3 +16,13 @@ print(tuple1)
 
 dict1 = {"name":"Himanshu","age":23}
 print(dict1)
+
+name = "Himanshu"
+print(len(name))
+
+# Strings in python are immutable
+print(name.upper())
+print(name)
+
+# split() method split the string at a given point that we decide, and returns a list of splitted parts.
+print(name.split("a"))
