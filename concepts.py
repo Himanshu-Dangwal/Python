@@ -26,3 +26,13 @@ print(name)
 
 # split() method split the string at a given point that we decide, and returns a list of splitted parts.
 print(name.split("a"))
+
+# Some string functions
+dummy = "!!!!Himanshu is a good boy. Himanshu loives to play games!!!!!!"
+print(dummy.count("Himanshu"))
+
+print(dummy.rstrip("!"))
+
+print(len(dummy))
+print(len(dummy.center(110)))
+print(dummy.center(110))
