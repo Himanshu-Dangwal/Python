@@ -19,7 +19,11 @@ else:
 match age:
     case 0:
         print("It is 0")
-    case _ if age > 18:
+    case _ if age >= 18:
         print("Valid")
     case _:
         print("invalid")
+
+
+
+print("AWS tutorials finder : Code with Harry Youtube Channel")
