@@ -1,5 +1,5 @@
-blogHeading = "into to nodeJS"
-print(blogHeading.capitalize())
+# blogHeading = "into to nodeJS"
+# print(blogHeading.capitalize())
 
 
 blogHeading = "Intro TO nOdeJS"
