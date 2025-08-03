@@ -1,0 +1,1 @@
+console.log("I am rendering the page, and I have added the js file with it")
