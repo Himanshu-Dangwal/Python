@@ -24,4 +24,5 @@ urlpatterns = [
     path("",views.homePage),
     path("about/",views.about),
     path("posts/",include("posts.urls")),
+    path("payments/",include("payments.urls"))
 ]
