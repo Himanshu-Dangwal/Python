@@ -24,5 +24,6 @@ urlpatterns = [
     path("",views.homePage),
     path("about/",views.about),
     path("posts/",include("posts.urls")),
-    path("payments/",include("payments.urls"))
+    path("payments/",include("payments.urls")),
+    path("signup/",include("signup.urls")),
 ]
