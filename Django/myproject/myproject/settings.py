@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     "posts",
     "payments",
     "signup",
+    "user",
+    "notes",
 ]
 
 MIDDLEWARE = [

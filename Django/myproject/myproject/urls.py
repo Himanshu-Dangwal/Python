@@ -26,4 +26,6 @@ urlpatterns = [
     path("posts/",include("posts.urls")),
     path("payments/",include("payments.urls")),
     path("signup/",include("signup.urls")),
+    path("user/",include("user.urls")),
+    path("notes/",include("notes.urls"))
 ]

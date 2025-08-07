@@ -11,5 +11,14 @@
       <li>1. First Post</li>
       <li>2. Second Post</li>
     </ul>
+
+    <ul>
+      {% for post in postss %}
+      <li>{{ forloop.counter }}. {{ post.title }}</li>
+      <a href="{% url "postlist" slug=post.slug%}">{{post.title}}</a>
+      {% empty %}
+      <li>No posts available.</li>
+      {% endfor %}
+    </ul>
   </body>
 </html>
