@@ -6,6 +6,7 @@ class Post(models.Model):
     body = models.TextField()
     slug = models.SlugField(unique=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
+    banner = models.ImageField(default="fallback.png",blank=True)
 
     def save(self, *args, **kwargs):
         if not self.slug:
